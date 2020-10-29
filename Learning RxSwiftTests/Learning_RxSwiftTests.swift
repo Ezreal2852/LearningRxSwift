@@ -62,4 +62,8 @@ class Learning_RxSwiftTests: XCTestCase {
     func testZip() {
         Learning_RxSwift.testZip()
     }
+    
+    func testSchedulers() {
+        Learning_RxSwift.testSchedulers()
+    }
 }
