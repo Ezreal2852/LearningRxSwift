@@ -63,7 +63,43 @@ class Learning_RxSwiftTests: XCTestCase {
         Learning_RxSwift.testZip()
     }
     
+    func testMerge() {
+        Learning_RxSwift.testMerge()
+    }
+    
     func testSchedulers() {
         Learning_RxSwift.testSchedulers()
+    }
+    
+    func testRetry() {
+        Learning_RxSwift.testRetry()
+    }
+    
+    func testRetryWhen() {
+        Learning_RxSwift.testRetryWhen()
+    }
+    
+    func testCatchError() {
+        Learning_RxSwift.testCatchError()
+    }
+    
+    func testResult() {
+        Learning_RxSwift.testResult()
+    }
+    
+    func testCombineLatest() {
+        Learning_RxSwift.testCombineLatest()
+    }
+    
+    func testSwitchLatest() {
+        Learning_RxSwift.testSwitchLatest()
+    }
+    
+    func testFlatMap() {
+        Learning_RxSwift.testFlatMap()
+    }
+    
+    func testScan() {
+        Learning_RxSwift.testScan()
     }
 }
